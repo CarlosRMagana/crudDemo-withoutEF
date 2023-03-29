@@ -14,7 +14,7 @@ namespace crudDemo.Data
 
         public TodoItemRepository()
         {
-            _connectionString = "Server=DESKTOP-03B17IT\\SQLEXPRESS;Database=TodoList;Trusted_Connection=True;";
+            _connectionString = "Server=localHost;Database=TodoList;Trusted_Connection=True;";
         }
 
         public IEnumerable<TodoItem> GetAllTodoItems()
